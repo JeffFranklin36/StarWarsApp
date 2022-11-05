@@ -2,6 +2,7 @@
 import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom'
 
 //styling
+import Container from 'react-bootstrap/Container';
 import './App.css';
 
 //components
