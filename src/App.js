@@ -1,5 +1,5 @@
-//react-features
-import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom'
+import { Route, Router, Routes } from 'react-router-dom';
+import './App.css';
 
 //styling
 import './App.css';
@@ -10,7 +10,15 @@ import Navbar from './Components/Navbar';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Router>
+
+      </Router>
+      <div className="display">
+        <Navbar/>
+        <Routes>
+          <Route path ='/' element={<HomePage/>}/>
+        </Routes>
+      </div>
     </div>
   );
 }
