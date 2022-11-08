@@ -5,7 +5,6 @@ import './App.css';
 //styling
 import Container from 'react-bootstrap/Container';
 import './App.css';
-import Container from 'react-bootstrap/Container';
 
 //components
 import Navbar from './Components/Navbar';
