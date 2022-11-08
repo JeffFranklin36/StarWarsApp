@@ -1,5 +1,7 @@
 //react features
 import React, {useState, useEffect} from 'react'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav'
 
 //styling
 import "../navbar.css"
