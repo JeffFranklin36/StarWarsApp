@@ -1,7 +1,16 @@
 .App {
   text-align: center;
   background: url("../public/backgroundimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150vh;
 }
+/* 
+.display {
+  width:500px;
+  height:500px;
+  margin:0 auto;
+ } */
 
 /* .App-header {
   min-height: 100vh;
