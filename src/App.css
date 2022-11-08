@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background: url("../public/backgroundimg.jpg");
+  background: url("./images/backgroundimg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;

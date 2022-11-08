@@ -9,6 +9,7 @@ import './App.css';
 //components
 import Navbar from './Components/Navbar';
 import HomePage from './Components/HomePage';
+import AboutPage from './Components/AboutPage'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <div className='display'>
         <Routes>
             <Route path ='/' element={<HomePage/>} />
+            <Route path ='/about' element={<AboutPage/>} />
         </Routes>
         </div>
       </Router>
